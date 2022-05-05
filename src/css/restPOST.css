@@ -1,0 +1,86 @@
+.content-post h1 {
+  margin-bottom: 50px;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+form input {
+  width: 348px;
+  padding: 14px 16px;
+  border: 1px solid #d0cfcf;
+}
+
+form input[type="file"] {
+  display: none;
+}
+
+form > * {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  margin-bottom: 50px;
+}
+
+.phone-wrapper {
+  width: auto;
+  margin-bottom: 40px;
+}
+
+.phone-hint {
+  margin: 0 0 0 16px;
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.radio-wrapper input {
+  padding: 0;
+  width: auto;
+}
+
+.radio-wrapper label {
+  margin-left: 10px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-upload {
+  display: flex;
+}
+
+.avatar-upload label {
+  padding: 10px 16px;
+  width: auto;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid black;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-upload input {
+  width: 100%;
+}
+
+form > button {
+  width: 100px;
+  background-color: #b4b4b4;
+}
+
+.avatar-upload .hint {
+  border-radius: 0;
+  flex-grow: 1;
+  padding: 10px 16px;
+  border: 1px solid #d0cfcf;
+  border-left: none;
+  color: #7e7e7e;
+}

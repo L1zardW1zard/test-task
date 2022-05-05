@@ -1,0 +1,74 @@
+@media screen and (max-width: 1170px) {
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+  section {
+    max-width: 100vw;
+  }
+  .main-banner {
+    width: 100%;
+  }
+  .img-wrapper {
+    width: 100%;
+    height: 650px;
+  }
+  .main-banner img {
+    width: 100%;
+  }
+  .user-grid {
+    margin: 0 60px;
+  }
+  .header-wrapper {
+    width: auto;
+  }
+  .btn-wrapper {
+    margin-right: 32px;
+  }
+  .logo {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .user-grid {
+    margin: 0 32px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .user-grid {
+    grid-template-columns: 1fr;
+  }
+  .user {
+    max-width: 550px;
+  }
+  .btn-wrapper {
+    margin-right: 16px;
+  }
+  .logo {
+    margin-left: 16px;
+  }
+  form > * {
+    width: 80%;
+  }
+  form > input {
+    width: 80%;
+  }
+  form input {
+    width: 267px;
+    max-width: 300px;
+  }
+  section:last-of-type {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .user-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

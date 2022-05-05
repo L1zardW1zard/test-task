@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+}
+
+.header-wrapper {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 1170px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo img {
+  margin-right: 1px;
+  width: 104px;
+  height: 26px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.users-btn {
+  margin-right: 10px;
+}
